@@ -143,7 +143,7 @@ const TokenLaunchPad = () => {
       updateAuthority,
       name: tokenInfo.tokenName,
       symbol: tokenInfo.symbol,
-      uri: "https://cdn.100xdevs.com/metadata.json",
+      uri: "https://github.com/Lovegupta112/token_launchpad/blob/main/src/assets/metadata.json",
       additionalMetadata: [["description", "Only Possible On Solana"]],
     };
     const metadataExtension = TYPE_SIZE + LENGTH_SIZE;
